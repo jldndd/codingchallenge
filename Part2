@@ -1,0 +1,37 @@
+{
+    "load": 400,
+    "Clearing_Prices": [300, 275, 250, 200, 23.5, 21.22, 20, 26, 29, 34, 40, 42, 51, 55, 37.2, 30, 25.2, 25, 35, 37.2,
+                   39.3, 42.1, 40, 36.1],
+    "fuels":
+        {
+            "gas(euro/MWh)": 18,
+            "kerosine(euro/MWh)": 70,
+            "coal (euro/ton)": 20,
+            "co2(euro/ton)": 22,
+            "wind(%)": 70
+        },
+    "powerplants": [
+        {
+            "name": "gasfiredbig1",
+            "type": "CCGT",
+            "efficiency": 0.53,
+            "pmin": 100,
+            "pmax": 460
+        },
+        {
+            "name": "Coalfired1",
+            "type": "Coal",
+            "efficiency": 0.70,
+            "pmin": 100,
+            "pmax": 500
+        },
+        {
+            "name": "tj1",
+            "type": "turbojet",
+            "efficiency": 0.3,
+            "pmin": 0,
+            "pmax": 30
+        }
+
+    ]
+}
